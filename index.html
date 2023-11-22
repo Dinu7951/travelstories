@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Travel Stories</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto Slab', serif;
+
+    }
+
+    .header {
+        position: fixed;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        top: 0;
+        left: 0;
+        padding: 20px 10%;
+        align-items: center;
+    }
+
+    header a {
+        text-decoration: none;
+        color: white;
+    }
+
+    div a {
+        margin: 20px;
+        padding: 0 10px 0 0;
+        border-radius: 40px;
+        color: rgb(13, 48, 79);
+
+
+    }
+
+    button {
+        padding: 10px;
+        border-radius: 40px;
+        width: 100px;
+        border-width: 0px;
+    }
+
+    .Sign {
+        background-color: rgb(13, 48, 79);
+        color: white;
+        width: 100px;
+
+    }
+
+    button:hover {
+        border-width: 2px;
+    }
+
+    html {
+        background-image: url(images/bgseter.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+
+    }
+
+    .login {
+        color: black;
+
+
+    }
+
+    h1 {
+        margin-top: 20px;
+        color: rgb(13, 48, 79);
+    }
+
+    .des {
+        /* position: relative; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body {
+        font-family: Helvetica, sans-serif;
+        padding: 0 0 5% 0;
+        /* text-align: center; */
+        font-size: 50;
+        padding-top: 100px;
+    }
+
+    #slideshow {
+        overflow: scroll;
+        height: 800px;
+        width: 1200px;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 650px;
+    }
+
+    .slide {
+        float: left;
+        height: 800px;
+        width: 1200px;
+        background-size: cover;
+    }
+
+    .slide-wrapper {
+        width: calc(1200px * 4);
+        animation: slide 15s ease infinite;
+    }
+
+    .slide:nth-child(1) {
+        background-image: url("images/22.jpeg");
+    }
+
+    .slide:nth-child(2) {
+        background-image: url("images/paaar.jpeg");
+    }
+
+    .slide:nth-child(3) {
+        background-image: url("images/one.jpeg");
+    }
+
+    .slide:nth-child(4) {
+        background-image: url("images/keer.jpeg");
+    }
+
+    @keyframes slide {
+        20% {
+            margin-left: 0px;
+        }
+
+        40% {
+            margin-left: calc(-1200px * 1);
+        }
+
+        60% {
+            margin-left: calc(-1200px * 2);
+        }
+
+        80% {
+            margin-left: calc(-1200px * 3);
+        }
+    }
+
+    nav {
+        position: relative;
+        top: 300px;
+        margin-left: 200px;
+    }
+
+    img {
+        width: 100px;
+        margin-left: 70px;
+    }
+
+
+    p {
+        font-size: 20px;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+    }
+
+
+    .footerContainer {
+        width: 100%;
+        padding: 70px 30px 20px;
+    }
+
+    .socialIcons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .socialIcons a {
+        text-decoration: none;
+        padding: 10px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 50%;
+
+    }
+
+    .socialIcons a i {
+        font-size: 2em;
+        color: black;
+        opacity: 0.9;
+
+    }
+
+    .socialIcons a:hover i {
+        color: rgb(113, 167, 113);
+        transition: 0.5s;
+    }
+
+    .footerNav {
+        margin: 30px 0;
+
+    }
+
+    .footerNav ul {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .footerNav ul li a {
+        color: rgb(0, 0, 0);
+        margin: 20px;
+        text-decoration: none;
+        font-size: 1.3em;
+        opacity: 0.7;
+        transition: 0.5s;
+    }
+
+    .footerNav ul li a :hover {
+        opacity: 1;
+
+    }
+
+    .footerBottom {
+        background-color: #111;
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    .footerBottom p {
+        color: white;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <h1>&#127757;Travel Stories.</h1>
+        </a>
+        <div class="items">
+            <a href="index.html">Home</a>
+            <a href="search.html">International Packages</a>
+            <a href="#">Domestic pakages</a>
+        </div>
+        <div>
+            <form action="mailto:dasrhu2005@gmail.com">
+                <button class="login"><a href="login copy.html">Login</a></button>
+
+            </form>
+        </div>
+
+    </header>
+    <nav>
+        <a href="search.html"><img src="images/bx-search.svg" /></a>
+        <p>PICK YOUR DESTINATION</p>
+    </nav>
+    <div id="slideshow">
+        <div class="slide-wrapper">
+            <div class="slide">
+                <h1 class="slide-number">
+                </h1>
+            </div>
+            <div class="slide">
+                <h1 class="slide-number">
+                </h1>
+            </div>
+            <div class="slide">
+                <h1 class="slide-number">
+
+                </h1>
+            </div>
+            <div class="slide">
+                <h1 class="slide-number">
+
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+
+            <div class="footerNav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Our Team</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">The WebWeavers</span></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

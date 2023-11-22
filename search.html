@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Here</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    html {
+        background-image: url(images/map.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+
+    }
+
+    .div {
+        border-radius: 30px;
+    }
+
+    nav a {
+        display: block;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto Slab', serif;
+        padding: 20px;
+        font-size: 30px;
+        position: relative;
+        top: 100px;
+        width: 450px;
+        margin: 10px;
+        border-radius: 10px;
+        left: 20px
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    input[type=text] {
+        position: relative;
+        top: 100px;
+        width: 500px;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    span {
+        font-size: 15px;
+        z-index: 1;
+        margin-left: 193px;
+    }
+
+    #red {
+        background-color: rgb(255, 170, 0);
+        border-radius: 10px;
+        padding: 2px;
+        color: black;
+        z-index: 1;
+    }
+
+    #pink {
+        background-color: pink;
+        border-radius: 10px;
+        padding: 2px;
+        color: black;
+        z-index: 1;
+        margin-left: 210px;
+    }
+
+    #yellow {
+        background-color: yellow;
+        border-radius: 10px;
+        padding: 2px;
+        color: black;
+        z-index: 1;
+    }
+
+    a {
+        background-color: rgb(0, 0, 0);
+        opacity: .6;
+    }
+
+    a:hover {
+        opacity: 1;
+    }
+</style>
+
+<body>
+    <div class="center">
+
+        <div class="div">
+            <header>
+                <input type="text" placeholder="Search Here">
+            </header>
+            <nav>
+                <a href="sri.html">Sri Lanka <span id="pink"> &#9734;Best</span></a>
+                <a href="maldives.html">Maldives <span id="red"> &#9734;Popular</span></a>
+                
+                <a href="spain.html">Spain</a>
+                <a href="japan.html">Japan <span id="yellow"> &#9734;recommended</span></a>
+                <a href="korea.html">Korea</a>
+
+
+            </nav>
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

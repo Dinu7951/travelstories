@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+html {
+    background-image: url(images/paris.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    position: static;
+}
+
+div {
+    display: block;
+}
+
+img {
+    float: left;
+}
+
+p {
+    font-size: 20px;
+}
+
+input[type=checkbox] {
+    margin: 4px;
+    line-height: normal;
+    width: 20px;
+    height: 20px;
+    background-color: none;
+}
+
+span {
+    font-size: 20px;
+}
+
+nav {
+    margin: 20px;
+    padding: 20px;
+}
+button{
+    text-align: center;
+    padding: 10px;
+    margin-left: 550px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(79, 184, 226);
+}
+button:active{
+    background-color: greenyellow;
+}
+a{
+    margin: 20px;
+    text-decoration: underline;
+    color:white;
+}
